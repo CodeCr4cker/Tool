@@ -17,7 +17,12 @@ def banner():
 banner()
 print(CYAN + "Connected to darknet chat. Type /quit to exit." + RESET)
 prompt = GREEN + "root@localhost:~# " + RESET
+promp = RED + "root@localhost:~# " + RESET
 print()
-print(prompt + "Hello there")
-print("[12:00:01] Neo> Hello, world!")
-print("[12:00:05] Trinity> We’re in.")
+print(prompt + "Welcome")
+
+print(prompt + "What is your Name")
+print(promp + input(""))
+print(prompt + "How Are you?")
+print(promp + input(""))
+
